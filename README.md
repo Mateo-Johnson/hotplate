@@ -9,3 +9,5 @@ A custom controller board that turns a cheap aluminum hot plate and heating elem
 
 ## Finalized Render:
 <img width="614" height="286" alt="Screenshot 2025-12-08 at 11 56 58 AM" src="https://github.com/user-attachments/assets/e93b87c8-d952-43af-be51-6bab674ffcf0" />
+
+A minimal firmware example demonstrating core functionality of the Reflow Hot Plate Controller is available. It initializes SPI thermocouple sensing, runs a basic PID loop to regulate temperature, and drives the MOC3021-triggered TRIAC to control the heating element. This code provides a working control loop at ~10 Hz and serves as a starting point for integrating the touchscreen UI, reflow profiles, and SD logging in later revisions.
